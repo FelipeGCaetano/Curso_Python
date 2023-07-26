@@ -1,0 +1,28 @@
+AULA 2
+
+TIPOS PRIMITIVOS
+
+POR PADRÃO, TODA VARIÁVEL É STR ATÉ QUE SEJA DELIMITADO OUTRO TIPO
+
+1.int
+usamos esse tipo primitivo para delimitar por () o que deverá ser considerado como número inteiro
+
+exemplo1:
+n1=input('Digite um número') - nesse caso a variável n1 será considerado como letras e não números
+exemplo2:
+n1=int(input('Digite um número')) - já nesse, como usamos o int, agorá a variável será considerada número inteiro
+
+2.float
+para números com ponto flutuante, devemos usar o float.
+exemplo: 4.5;0.076;-15.6;7.0
+
+3.bool
+para valores verdadeiros(True) e falsos(False), usamos o bool
+
+4.str
+para palavras usamos str, onde deve ser delimitado por '
+exemplo: 'olá';'7.5', podemo também ter str vazias: ''
+
+OUTRA FORMA DE USAR O PRINT
+
+print('A soma vale {variavel}')

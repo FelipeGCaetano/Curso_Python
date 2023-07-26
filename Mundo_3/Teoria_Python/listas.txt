@@ -1,0 +1,34 @@
+VARIÁVEIS COMPOSTAS
+
+LISTAS
+
+listas são muito parecidas com tuplas, a diferença é de que as listas são MUTAVÉIS
+
+lanche = ['bolo', 'suco', 'pizza', 'pudin']
+lanche[3] = sorvete - o sorteve ficará no lugar do pudin
+
+
+ADICIONAR
+
+lanche.append('cookie') - será adicionado cookie a lista lanche na ultima opção
+lanche.insert(0, 'cachorroquente') - irá adicionar na colocação 0
+
+
+APAGAR
+
+del lanche[3] - apaga a pizza
+lanche.pop(3) - também apaga pizza
+lanche.remove('pizza') - remove o valor que digitar
+
+
+CRIAR LISTAS COM RANGE
+valores=list(range(4, 11))
+
+
+ORGANIZAR LISTAS
+valores = [8,2,5,4,9,3,0]
+valores.sort() - organiza em ordem crescente
+valores.sort(reverse=True) - em forma decrescente
+
+
+

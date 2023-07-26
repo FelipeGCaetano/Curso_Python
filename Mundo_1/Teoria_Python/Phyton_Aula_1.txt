@@ -1,0 +1,67 @@
+AULA 1
+
+mensagens devem estar escritas entre "", exemplo: print("olá, mundo")
+olá mundo
+
+números para CALCULOS não é necessário "", 
+exemplo1: print(7+4)
+11 
+
+exemplo2: print("7"+"4") - o + nesse caso é usado para juntar as duas mensagens,  a virgula pode ser usada também
+74
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+VARIÁVEIS
+toda variável é um objeto, onde todas podem receber um valor, indicado pelo simbolo =
+exemplo1: nesse exemplo a variável recebe um valor fixo
+nome='felipe'
+idade=18
+peso=70.0
+
+As variáveis podem ser exibidas usando o print
+exemplo1.1:
+print(nome,idade,peso)
+felipe 18 70.0
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+input = leia
+exemplo2: nesse exemplo, a variável receberá um valor indicado pleo usuário
+nome=input('Qual é o seu nome?')
+idade=input('Quantos anos você tem?')
+peso=input('Quanto você pesa?')
+print(nome,idade,peso)
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+EXERCICIOS
+
+1.Crie um script python que leia o nome de uma pessoa e mostre uma mensagem de boas vindas de acordo com o valor digitado:
+
+Resolução:
+nome=input("Qual o seu nome? ")
+print("olá",nome,"! prazer em te conhecer")
+
+2.Crie um script python que leia o dia, o mês e o ano de nascimento de uma pessoa e mostre com a data formatada:
+
+Resolução:
+dia=input("dia ")
+mes=input("mês ")
+ano=input("ano ")
+
+print("Você nasceu no dia", dia, "de", mes, "de", ano)
+
+3.Crie um script python que leia dois númeos e tente mostrar a coma entre eles:
+
+Resolução:
+n1=input("Digite o primeiro número ")
+n2=input("Digite o segundo número ")
+
+r=int(n1)+int(n2)
+
+print("O resultado da soma é ", r,)
+
+
+
+

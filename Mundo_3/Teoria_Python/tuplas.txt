@@ -1,0 +1,27 @@
+VARIÁVEIS COMPOSTAS
+
+TUPLAS
+
+tuplas são variáveis compostas onde podemos armazenar mais de uma informação
+
+ex:
+
+lanche = bolo  |  isso é uma variável simples
+
+lanche = ('bolo', 'suco', 'pizza', 'pudin')  |  uma tupla, armazenando mais de um conteudo
+
+print(lanche [2]) - pizza
+print(lanche [0:2]) - bolo suco
+print(lanche [1:]) - suco pizza pudin
+print(lanche [-1]) - pudin
+len(lanche) - 4
+
+for c in lanche:
+    print(c)
+
+
+*********AS TUPLAS SÃO IMUTÁVEIS**********
+
+
+
+

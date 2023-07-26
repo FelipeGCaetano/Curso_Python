@@ -1,0 +1,16 @@
+CONDIÇÕES ANINHADAS
+
+condições aninhadas são quando temos várias possibilidades, diferente do if e else onde temos apenas e sempre duas.
+exemplo:
+
+carro.siga()
+if carro.esquerda():
+    carro.siga()
+    carro.direira()
+elif carro.direita():
+    carro.siga()
+    carro.esquerda()
+else:
+    carro.siga()
+carro.pare()
+

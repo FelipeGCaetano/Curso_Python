@@ -1,0 +1,27 @@
+ESTRUTURA DE REPETIÇÃO
+BREAK
+
+enquanto Verdadeiro          |
+    se tiver chão            |
+        passo                |
+    se tiver buraco          | 
+        pule                 |
+    se tiver moeda           | PORTUGOL
+        pega                 |
+    se troféu                |
+        pega                 |
+        interrompa           |   
+pega                         |
+
+
+while True:                  |
+    if chão:                 |
+        passo                |
+    elif buraco:             | 
+        pule                 |
+    elif moeda:              | PYTHON
+        pega                 |
+    elif troféu:             |
+        pega                 |
+        break                |
+pega                         |

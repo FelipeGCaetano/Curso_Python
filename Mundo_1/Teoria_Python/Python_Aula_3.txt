@@ -1,0 +1,72 @@
+AULA 3
+
+OPERAÇÕES ARITMÉTRICAS
+
++ adição            5+2 == 7
+- subtração         5-2 == 3
+* multiplicação     5*2 == 10
+/ divisão           5/2 == 2.5
+// divisão inteira  5//2 == 2
+% resto da divisão  5%2 == 1
+** pôtencia         5**2 == 25
+
+ORDEM DE PRECEDÊNCIA
+
+1.()
+2.**
+3.* / // % 
+4. + -
+
+exemplos:
+5+3*2==11
+
+3*5+4**2==31
+
+3*(5+4)**2==243
+
+FORMATAÇÃO DOS RESULTADOS
+
+muitas vezes a divisão pode nos dar uma dizima, portanto, para delimitar a quantidade
+de caracteres que queremos mostrar depois da virgula, fazer da seguinte maneira:
+
+exemplo1: nesse caso, quero que a divisão me mostre 3 casas depois da virgula
+n1=int(input('Um valor: '))
+n2=int(input('Outro valor: '))
+d=n1/n2
+print('A divisão vale {:.3f}'.format(d))
+
+dentro dos {} nós colocamos :. e o número de casas que queremos, nesse caso {:.3f}
+
+QUEBRA DE LINHAS
+
+Nesse caso, durante o comando, podemos delimitar onde a linha deve quebras usando \n1
+
+exemplo: 
+n1=int(input('Um valor: '))
+n2=int(input('Outro valor: '))
+s=n1+n2
+d=n1/n2
+print('a soma vale {} \n e a divisão é {:.3f}'.format(s, d),)
+
+nesse caso, o resultado que teriamos é:
+Um valor: 2
+Outro valor: 3
+a soma vale 5 
+ e a divisão é 0.666
+
+JUNÇÃO DE LINHAS
+
+em outros casos, quando usamos mais de um print, podemos juntar as duas linhas com end=' ' onde dentro de '' pode ser colocado qualquer coisa
+
+exemplo:
+n1=int(input('Um valor: '))
+n2=int(input('Outro valor: '))
+d=n1/n2
+print('a soma vale {}'.format(n1+n2), end=' ')
+print(' divisão vale {:.3f}'.format(d)) 
+
+o resultado do comando seria:
+Um valor: 2
+Outro valor: 3
+a soma vale 5  divisão vale 0.667
+

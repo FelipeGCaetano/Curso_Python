@@ -1,0 +1,39 @@
+LAÇOS DE REPETIÇÃO
+
+WHILE
+
+EXEMPLO1:
+
+enquanto não chegar na maça |
+    passo                   |  PORTUGOL
+pega                        |
+
+
+while not maça:             |
+    passo                   | PYTHON
+pega                        |
+
+-------------------------------------------------------------
+
+EXEMPLO2:
+
+enquanto não chegar na maça  |
+    se tiver chão            |
+        passo                |
+    se tiver buraco          | PORTUGOL
+        pule                 |
+    se tiver moeda           |
+        pega                 |   
+pega                         |
+
+
+while not maça:              |
+    if chão:                 |
+        passo                |
+    elif buraco:             | PYTHON
+        pule                 |
+    elif moeda:              |
+        pega                 |
+pega                         |
+
+

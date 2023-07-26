@@ -1,0 +1,39 @@
+TRABALHANDO COM MÓDULOS
+
+Na linguagem python, para construir um sistema mais complexo, precisamos importar módulos (Bibliotecas) de modo que após importar,
+um novo leque de comandos será adicionado, para isso usamos o comando import.
+No nosso exemplo, vamos usar 3 bibliotecas que se chamam bebida, comida e doce, sendo assim, para eu importar a biblioteca de bebidad é 
+necessário fazer o seguinte:
+
+import bebida
+
+É importante citar que fazendo isso, nós importamos todos os comandos (bebidas) que está na biblioteca.
+
+Para fazer importações de apenas um comando, fazemos da seguinte maneira
+
+from doce import refrigerante
+
+EXEMPLOS:
+import math
+num=int(input('Digite um número: '))
+raiz=math.sqrt(num)
+
+print('a raiz de {} é igual a {}'.format(num, ceil.math(raiz)))
+
+nesse caso importamos a biblioteca math e usamos o ceil para arendondar para cima o resultado da raiz
+
+_____________________________________________________________________________________________________________
+
+from math import sqrt, floor
+num=int(input('Digite um número: '))
+raiz=sqrt(num)
+
+print('a raiz de {} é igual a {}'.format(num, floor(raiz)))
+
+já nesse caso apenas importamos as funções sqrt e floor da biblioteca math
+OBS: quando importamos apenas algunas funções, não é necessário colocar o nome da biblioteca e o ponto antes do comando
+importando tudo: raiz=math.sqrt(num)
+importanto apenas algumas funções: raiz=sqrt(num)
+
+
+

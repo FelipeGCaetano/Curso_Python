@@ -1,0 +1,41 @@
+CORES NO TERMINAL
+
+PADRÃO ANSI
+
+sempre que quisermos representar uma cor em python começamos o código com \033[m
+onde entre o [ e m colocamos o código da cor
+exemplo:
+
+\033[0;33;44m
+
+nessa situação, representamos 3 códigos, o 0 da style; 33 do text e 44 do back.
+
+CÓDIGOS DE STYLE, TEXT E BACK 
+
+STYLE
+0 -- Não tem estilo nenhum/sem estilo
+1 -- Coloca a fonte em negrito
+4 -- Coloca o texto sublinhhado
+7 -- Inverte as configurações, o que é fundo vai pra letra e o que é letra vai pra fundo
+
+TEXT
+30 -- Branco
+31 -- Vermelho
+32 -- Verde
+33 -- Amarelo
+34 -- Azul
+35 -- Roxo
+36 -- Ciano
+37 -- Cinza
+
+BACK 
+40 -- Branco
+41 -- Vermelho
+42 -- Verde
+43 -- Amarelo
+44 -- Azul
+45 -- Roxo
+46 -- Ciano
+47 -- Cinza
+
+

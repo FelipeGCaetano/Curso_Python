@@ -1,0 +1,40 @@
+ajuda interativa é uma função do python representada por help(), onde nos mostrar a funcionalidade de qualquer coisa dentro da linguagem, por exemplo:
+
+se eu quiser saber para que funciona o print(), basta eu colocar help(print) e me dará uma explicação do print.
+
+é possível acessar o help pelo prompt de comando, digitando help() direto no prompt do python
+
+
+DOCSTRINGS
+
+Quando criamos uma def, para quem não sabe o que ela faz, é necessário criarmos uma docstring para que o usuário possa usar o comando hel(def)
+exemplo:
+
+def contador(inicio, fim, passo):
+    """
+    -> Faz uma contagem e mostra na tela
+    :param inicio: Inicio da contagem
+    :param fim: Fim da contagem
+    :param passo: passo da contagem
+    """
+    print('-=' * 20)
+    print(f'Contagem de {inicio} até {fim} de {passo} em {passo}')
+
+assim, quando usar o help(contador) terá a explicação do que a função faz e os parametros necessários
+
+
+PARAMETROS OPCIONAIS    
+
+quando criamos uma função, podemos passar os parametros necessário para funcionar assim que chamamos ela, porém, as vezes o usuário pode não passar esse
+parametro, o que acaba dando erro na função, para isso usamos os parametros OPCIONAIS
+exemplo:
+
+def contador(inicio, fim, passo = 0):
+    print('-=' * 20)
+    print(f'Contagem de {inicio} até {fim} de {passo} em {passo}')
+
+
+contador(10, 30)
+
+nesse caso, na função temos 3 parametros, porém colocando = 0 o passo passa a ser opcional para o usuário, então se não for passado esse 
+parametro não dará erro

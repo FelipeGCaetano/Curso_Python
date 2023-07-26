@@ -1,0 +1,54 @@
+EXEMPLO 1
+
+def lin():
+    print('-' * 30)
+
+
+lin()
+print('  FELIPE  ')
+lin()
+
+
+EXEMPLO 2
+
+def mensagem(msg): #msg é o parametro que será recebido
+    print('-' * 30)
+    print(msg)
+    print('-' * 30)
+
+
+mensagem('SISTEMA DE ALUNOS')
+
+
+EXEMPLO 3
+
+del soma(a, b):
+    s = a + b
+    print(s)
+
+
+soma(9, 8)
+soma(2, 3)
+soma(7, 5)
+
+EXEMPLO 4
+
+def contador(* núm): # 
+    tam = len(núm)
+    print(f'Recebi os valores {núm} e ao todo são {tam} números')
+
+
+contador(1, 2, 3, 4)
+contador(3, 5, 6, 9, 7, 4)
+
+EXEMPLO 5
+
+def dobra(lst):
+    pos = 0
+    while pos <len(lst):
+        lst[pos]*=2
+        pos += 1
+
+valores = [1, 5, 7, 8, 4]
+dobra(valores)
+print(valores)

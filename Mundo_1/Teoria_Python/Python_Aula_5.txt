@@ -1,0 +1,183 @@
+MANIPULANDO CADEIAS DE TEXTO
+
+cadeia de caracteres = frases
+
+para o python, uma cadeia de caracteres sempre deve vir entre '' ou ""
+
+
+FATIAMENTO 
+
+fatiar uma string é nada mais do que pegar pedaços dela
+
+
+EXEMPLO1
+frase='curso em video python'
+print(frase[9])
+'v'
+nesse caso ele irá mostrar na tela apenas o caracter 9, que nesse caso é a letra V
+ 
+
+EXEMPLO2
+frase='curso em video python'
+print(frase[9:13])
+'vide'
+nesse outro exemplo, ele irá mostrar na tela os caracteres começando do 9 até o 13, porém ele exclui o ultimo, sendo assim, mostraria até o 12
+
+
+EXEMPLO3
+frase='curso em video python'
+print(frase[9:21:2])
+'vdopto'
+nesse caso, começa no 9, para no 21 pulando de 2 em 2
+
+
+EXEMPLO4
+frase='curso em video python'
+print(frase[:5])
+'curso'
+é o mesmo caso do primeiro exemplo, porém quando eu omito o número antes do :, é como se fosse 0, sendo assim, é a mesma coisa de 0:5
+
+
+EXEMPLO5
+frase='curso em video python'
+print(frase[15:])
+'python'
+quando omitimos o segundo número, ele conta do que mostramos até o final, nesse caso do 15 até o final
+
+
+EXEMPLO6
+frase='curso em video python'
+print(frase[9::3])
+'vepo'
+começamos no 9, vamos até o final pulando de 3 em 3
+
+
+ANÁLISE
+
+analisar a string é saber algumas informações
+com que letra começa?
+com que letra termina?
+qual o tamanho?
+qual a primeira palavra?
+etc
+
+
+EXEMPLO1: len
+frase='curso em video python'
+print(len(frase))
+21
+com o comando len, ele mostra a quantidade de caracteres da variável
+
+
+EXEMPLO2: count
+frase='curso em video python'
+print(frase.count('o'))
+3
+nesse caso o comando count conta quantas vezes aparece a letra entre (), no meu caso a letra 'o' aparece 3 vezes]
+
+
+EXEMPLO3: 
+frase='curso em video python'
+print(frase.count('o',0,13))
+1
+conta quantas vezes aparece a letra entre () começando do 0 até o 13, lembrando que o ultimo não entra, então é até o 12 nesse caso
+
+
+EXEMPLO4: find
+frase='curso em video python'
+print(frase.find('deo'))
+11
+mostra a posição onde começa os caracteres entre ('')
+
+
+EXEMPLO5
+frase='curso em video python'
+print(frase.find('Android'))
+-1
+caso coloque uma string que não existe dentro da variável, o sistema retorna o valor -1
+
+
+TRANSFORMAÇÃO
+
+EXEMPLO1: replace
+frase='curso em video python'
+print(frase.replace('Python','Android'))
+'curso em video Android'
+nesse caso, usando o replace, trocamos a primeira palavra pela segunda, o resultado trocaria a palavra python por Android
+
+
+EXEMPLO2: upper
+frase='curso em video python'
+print(frase.upper())
+'CURSO EM VIDEO PYTHON'
+usando o upper ele transforma os caracteres para maiusculo
+
+
+EXEMPLO3: lower
+frase='curso em video python'
+print(frase.lower())
+'curso em video python'
+usando o lower transforma os caracteres para minusculos
+
+
+EXEMPLO4: capitalize
+frase='curso em video python'
+print(frase.capitalize())
+'Curso em video python'
+usando o capitalize, apenas o primeiro caracter fica em maiusculo
+
+
+EXEMPLO5: title 
+frase='curso em video python'
+print(frase.title())
+'Curso Em Video Python'
+com title, o primeiro caracter de cada palavra fica em maiusculo
+
+
+EXEMPLO6: strip
+frase='   Aprendenda Python  '
+print(frase.strip())
+'Aprenda Python'
+strip serve para remover os espaços do inicio e do final da frase
+
+
+EXEMPLO7: rstrip
+frase='   Aprendenda Python  '
+print(frase.rstrip())
+'   Aprenda Python'
+r de right
+retira todos os espaços do lado direito da string
+
+
+EXEMPLO8: lstrip
+frase='   Aprendenda Python  '
+print(frase.lstrip())
+'Aprenda Python  '
+l de left
+retira todos os espaços do lado esquerdo da string
+
+
+DIVISÃO
+
+EXEMPLO1: split
+frase='curso em video python'
+print(frase.split())
+'curso em video python'
+ 01234 01 01234 012345
+   0   1    2      3
+
+com split ele divide as palavras e a numeração recomeça, cada palavra entra em uma nova lista, onde tem numerações também
+
+
+JUNÇÃO
+
+EXEMPLO1: join
+frase='curso em video python'
+print('-'.join(frase))
+'curso-em-video-python'
+mostra na tela a frase com separações com o que está entre '', no meu caso é -
+
+
+
+
+

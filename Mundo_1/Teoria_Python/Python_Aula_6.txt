@@ -1,0 +1,23 @@
+CONDICIONAIS
+
+CONDIÇÕES SIMPLES
+
+condições simples são código onde temos apenas o if.
+exemplo:
+
+nome = str(input(''Digite seu nome: ))
+if nome == 'Felipe':
+    print('Que nome bonito!')
+print(f'Bom dia {nome}')
+
+
+CONDIÇÃO COMPOSTA
+
+condições compostas são código onde temos o if e o else.
+
+tempo=int(input('Quantos anos tem seu carro?'))
+if tempo<=3:
+    print('Carro novo')
+else:
+    print('Carro velho')
+print('--FIM--')
